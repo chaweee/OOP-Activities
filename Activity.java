@@ -1,14 +1,11 @@
 class Activity{
     public static void main(String[] args) {
-        
-        Dog objDog = new Dog();
-        Dog numberofPuppies = Puppies();
+        Dog aho = new Dog();
+        aso.name = "toto";
+        aso.puppies = 5;
 
-        objDog.name = "Tata";
-        objDog.name = "Tate";    
-        objDog.name = "Tati";    
-        objDog.name = "Tato";    
-        objDog.name = "Tatu";    
+        aso.
+     
 
     
 }
