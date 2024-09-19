@@ -2,21 +2,13 @@ public class Dog {
         String name;
         boolean ismale;
         int numofPuppies;
-        Dog[] Puppies = new Dog[5];
-        Dog Name;
-    
-    public void SetName(String Name){
-            
-        }
-        
+        string[] doggy = new String [5];
+           
     public String showName(){
             return name;
         }
-    public void showNumberOfPuppies(){
-   
-        }
-
- public int setNumOfPuppies(int numofPuppies){
+        
+ public int setNumOfPuppies(){
             return numofPuppies;
 
         }
