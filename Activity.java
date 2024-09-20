@@ -1,20 +1,22 @@
-class Activity{
+public class Activity {
     public static void main(String[] args) {
-        Dog aho = new Dog();
-        aso.name = "toto";
-        aso.puppies = 5;
+        Dog aso = new Dog("otit"); 
 
-        aso.doggy[0]= "tata";
-        aso.doggy[1]= "tete";
-        aso.doggy[2]= "tutu";
-        aso.doggy[3]= "tuti";
+        aso.setName("tata");
+        aso.setNumOfPuppies(4);
+        System.out.println("Dog's name:  " + aso.showName());
+
+
 
         System.out.println(aso.showName());
-        System.out.println(aso.numofPuppies());
-        System.out.println(x:"Woof! Woof!);
+        aso.bark();
+        System.out.println(aso.showNumberofPuppies());
 
-        for (int i = -; 1 <5; i++) {
-            System.out.println(aso.doggy[i]);
+
+        for (int i = 0; i < aso.numOfPuppies; i++) {
+            if (aso.doggy[i] != null) {
+                System.out.println(aso.doggy[i]);
+            }
         }
     }
-    }
+}
